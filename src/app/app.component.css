@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 40%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 10px 0px;
+}
+.container h2 {
+    margin: 50px 0px;
+}
+.container .images {
+    background-color: #f2f6ff;
+    padding: 15px;
+    margin: 20px 0px;
+}
+.container .images img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 30px;
+}
+.container form{
+    margin-top: 30px;
+}
+.container form input{
+    width: 500px;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    margin: 20px 0px;
+}
+.container form input:focus{
+    font-size: 20px;
+}
+.btn{
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 50px;
+    border: none;
+    margin: 30px 0px;
+    cursor: pointer;
+}
